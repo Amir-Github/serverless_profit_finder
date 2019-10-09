@@ -4,7 +4,7 @@ exports.handler = async (event) => {
 
   let data_array = get_validated_input(event.queryStringParameters === null ? null : event.queryStringParameters.input);
 
-  if (Array.isArray(data_array) && data_array.length > 1) {
+  if (data_array !== null) {
 	return build_http_response(200, build_analysis_result_message(data_array, profit_finder.get_max_profit(data_array)));
   } else {
 	return build_http_response(400, "input needs to be an array of at least 2 integer elements!");

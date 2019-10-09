@@ -9,7 +9,7 @@ You can use the following endpoint to use the solution here:
 
 https://60knhp2sll.execute-api.ap-southeast-2.amazonaws.com/default/find_best_profit
 
-this API require a query parameter called "input" which is meant to be an array of integers.
+This API requires a query parameter called "input" which is meant to be an array of integers.
 
 For Example:  
 
