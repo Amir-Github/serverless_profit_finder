@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules
+
+# Ignore build directory
+.serverless
+
+# IDE generated files
+.idea
+**.iml
+

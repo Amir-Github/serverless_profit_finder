@@ -1,0 +1,12 @@
+{
+  "name": "profit_finder",
+  "version": "1.0.0",
+  "description": "Serverless API to retrodict the best possible return from an array dataset.",
+  "author": "Amir Sadri",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "tape": "^4.7.0",
+    "util": "^0.10.3"
+  }
+}
